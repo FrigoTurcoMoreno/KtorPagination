@@ -5,8 +5,8 @@ plugins {
 }
 
 group = "io.github.frigoturcomoreno"
-version = "1.0"
-val artifact = "ktor_pagination"
+version = "1.0.0"
+val artifact = "ktor-pagination"
 
 repositories {
     mavenCentral()
@@ -17,7 +17,7 @@ mavenPublishing {
 
     signAllPublications()
 
-    coordinates("$group.$artifact", "ktor_pagination", version.toString())
+    coordinates(group.toString(), artifact, version.toString())
 
     pom {
         name.set("Ktor Pagination")
