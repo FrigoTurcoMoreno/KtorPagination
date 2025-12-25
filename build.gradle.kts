@@ -4,7 +4,7 @@ plugins {
     id("com.vanniktech.maven.publish") version "0.35.0"
 }
 
-group = "dev.mft"
+group = "io.github.frigoturcomoreno"
 version = "1.0"
 val artifact = "ktor_pagination"
 
